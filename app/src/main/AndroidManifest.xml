@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidlime.health_tips">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hea"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tips_1" />
+        <activity android:name=".Tips_2" />
+        <activity android:name=".Tips_3" />
+        <activity android:name=".Tips_4" />
+        <activity android:name=".Tips_5" />
+        <activity android:name=".Tips_6" />
+        <activity android:name=".Tips_7" />
+        <activity android:name=".Tips_8" />
+        <activity android:name=".Tips_9" />
+        <activity android:name=".scend2Activity" />
+        <activity android:name=".menu_Activity" />
+        <activity android:name=".Tips_10" />
+        <activity android:name=".Tips_11" />
+        <activity android:name=".Tips_12" />
+        <activity android:name=".Tips_13" />
+        <activity android:name=".Tips_14" />
+        <activity android:name=".Tips_15" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Tips_16" />
+        <activity android:name=".Tips_17" />
+        <activity android:name=".Tips_18" />
+        <activity android:name=".Tips_19" />
+        <activity android:name=".Tips_20" />
+        <activity android:name=".Tips_21" />
+        <activity android:name=".Tips_22" />
+        <activity android:name=".Tips_23"></activity>
+    </application>
+
+</manifest>

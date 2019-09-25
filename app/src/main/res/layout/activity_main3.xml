@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF050A0D"
+    tools:context="com.androidlime.health_tips.Main3Activity">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:padding="3dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:background="#FFF8F9FA"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/btn51"
+                android:text="উজ্জ্বল ত্বক পেতে "
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:background="#FFF8F9FA"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:textSize="23dp"
+                android:id="@+id/btn52"
+                android:text="চোখের কোণের কালি যেভাবে দূর করবেন"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+            <Button
+                android:text="হেঁচকি উঠলে যা করবেন"
+                android:layout_marginTop="20dp"
+                android:background="#FFF8F9FA"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:textSize="23dp"
+                android:id="@+id/btn53"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+
+            <Button
+                android:text="গলা ব্যথা হলে"
+                android:layout_marginTop="20dp"
+                android:background="#FFF8F9FA"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:textSize="23dp"
+                android:id="@+id/btn54"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+            <Button
+                android:text="ফার্মের মুরগির মাংস এড়িয়ে চলবেন"
+                android:layout_marginTop="20dp"
+                android:background="#FFF8F9FA"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:textSize="23dp"
+                android:id="@+id/btn55"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+            <Button
+                android:text="খাবারে অ্যালার্জি"
+                android:layout_marginTop="20dp"
+                android:background="#FFF8F9FA"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:textSize="23dp"
+                android:id="@+id/btn56"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+            <Button
+                android:text="চুল পড়া কমাতে"
+                android:layout_marginTop="20dp"
+                android:background="#FFF8F9FA"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:textSize="23dp"
+                android:id="@+id/btn57"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+            <Button
+                android:text="ত্বক ফর্সা করা কি সম্ভব"
+                android:layout_marginTop="20dp"
+                android:background="#FFF8F9FA"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:textSize="23dp"
+                android:id="@+id/btn58"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

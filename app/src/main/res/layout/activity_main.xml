@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/aol"
+    tools:context="com.androidlime.health_tips.MainActivity">
+
+    <TextView
+        android:scaleY="1.6"
+        android:background="#F0BC74F7"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="#FFEEECF4"
+        android:layout_marginTop="0dp"
+        android:textSize="36dp"
+        android:gravity="center"
+        android:text="স্বাস্থ্যই সম্পদ"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+
+    <ImageView
+        android:layout_marginTop="18dp"
+        android:padding="4dp"
+        android:layout_gravity="center"
+        android:src="@drawable/wow"
+        android:layout_width="match_parent"
+        android:layout_height="240dp" />
+
+
+  <LinearLayout
+
+      android:padding="0dp"
+      android:background="@drawable/aol"
+      android:layout_marginTop="9dp"
+      android:layout_gravity="center"
+      android:orientation="vertical"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      <Button
+          android:padding="5dp"
+          android:textColor="#FFE1DEE7"
+          android:scaleY="1.3"
+          android:textStyle="bold"
+          android:layout_marginTop="0dp"
+          android:drawableLeft="@drawable/ic_apps_black_24dp"
+          android:background="#F7F139C3"
+          android:textAppearance="?android:textAppearance"
+          android:id="@+id/btn33"
+          android:textSize="30dp"
+          android:text="প্রথম ধাপ"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+      <Button
+          android:padding="5dp"
+          android:textColor="#FFE1DEE7"
+          android:scaleY="1.3"
+          android:textStyle="bold"
+          android:layout_marginTop="27dp"
+          android:drawableLeft="@drawable/ic_apps_black_24dp"
+          android:background="#F7F1C039"
+          android:textAppearance="?android:textAppearance"
+          android:id="@+id/btn34"
+          android:textSize="30dp"
+          android:text="দ্বিতীয়  ধাপ "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+
+      </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+       android:orientation="horizontal"
+       android:layout_width="wrap_content"
+       android:layout_height="50dp"
+      >
+
+       <Button
+           android:id="@+id/facebook"
+           android:layout_marginTop="0dp"
+           android:drawableLeft="@drawable/fffo"
+           android:textAppearance="?android:textAppearance"
+           android:text="ফেইসবুক "
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:id="@+id/gmail"
+           android:layout_marginTop="0dp"
+           android:drawableLeft="@drawable/bp"
+           android:textAppearance="?android:textAppearance"
+           android:text="জিমেইল "
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+
+   </LinearLayout>
+
+</LinearLayout>

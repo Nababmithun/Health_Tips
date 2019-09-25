@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scend2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0D0A0B"
+
+
+    tools:context="com.androidlime.health_tips.scend2Activity">
+
+    <ScrollView
+        android:background="#FF0D0A0B"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:padding="3dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/btn1"
+                android:text="কাজু বাদামের গুণাগুণ"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+
+            <Button
+                android:layout_marginTop="18dp"
+                android:padding="5dp"
+                android:textStyle="normal"
+                android:textSize="23dp"
+                android:id="@+id/btn2"
+                android:text="ক্যান্সার-ডায়াবেটিস প্রতিরোধে "
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+
+
+            <Button
+                android:layout_marginTop="18dp"
+
+                android:textStyle="normal"
+                android:textSize="25dp"
+                android:id="@+id/btn3"
+                android:text="উচ্চ রক্তচাপ নিয়ন্ত্রণে "
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"/>
+
+            <Button
+                android:layout_marginTop="18dp"
+
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/btn4"
+                android:text="ক্ষুধা কমাতে যা খাবেন"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"/>
+
+            <Button
+                android:layout_marginTop="18dp"
+
+                android:textStyle="normal"
+                android:textSize="25dp"
+                android:id="@+id/btn5"
+                android:text="যেভাবে পানি খেলে"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"/>
+
+
+            <Button
+                android:layout_marginTop="18dp"
+
+                android:textStyle="normal"
+                android:textSize="25dp"
+                android:id="@+id/btn6"
+                android:text="হজমের সমস্যা"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"/>
+
+            <Button
+                android:layout_marginTop="18dp"
+                android:textStyle="normal"
+                android:textSize="24dp"
+                android:id="@+id/btn7"
+                android:text="সকালে খালি পেটে পানি পানের"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"/>
+
+
+            <Button
+                android:layout_marginTop="18dp"
+
+                android:textStyle="normal"
+                android:textSize="25dp"
+                android:id="@+id/btn8"
+                android:text="ত্বক সুস্থ্য রাখার উপায়গুলো "
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"/>
+
+            <Button
+                android:layout_marginTop="18dp"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/btn9"
+                android:text="ছোট মাছ কেন খাবেন"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"/>
+
+            <Button
+                android:layout_marginTop="18dp"
+
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/btn10"
+                android:text="ব্রণ হলে যা করবেন "
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"/>
+            <Button
+                android:layout_marginTop="18dp"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/btn11"
+                android:text="গলা ব্যথা হলে"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"/>
+            <Button
+                android:layout_marginTop="18dp"
+
+                android:textSize="23dp"
+                android:textStyle="normal"
+                android:id="@+id/btn12"
+                android:text="ক্যান্সারের জন্য দায়ী ৮ খাবার"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"/>
+            <Button
+                android:layout_marginTop="18dp"
+
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/btn13"
+                android:text="ওজন কমাতে"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"/>
+            <Button
+                android:layout_marginTop="18dp"
+
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/btn14"
+                android:text="হজমে সমস্যা"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"/>
+            <Button
+                android:layout_marginTop="18dp"
+
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:id="@+id/btn15"
+                android:text="শীতে ত্বকের যত্ন"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

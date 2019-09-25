@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tips_22"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#FF12151B"
+    tools:context="com.androidlime.health_tips.Tips_22">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/chol"
+            android:id="@+id/imageViewId"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+
+        <TextView
+            android:layout_marginTop="420dp"
+            android:scaleY="1.3"
+            android:textColor="#FFF2F3F4"
+            android:text="@string/chol"
+            android:id="@+id/tv2"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</ScrollView>
